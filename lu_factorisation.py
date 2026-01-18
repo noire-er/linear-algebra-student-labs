@@ -56,4 +56,11 @@ def lu_factorisation(A):
 
     return L, U
     
+
+    A = np.array([[4, 2, 0],
+                  [2, 3, 1],
+                  [0, 1, 2.5]])
+    
+    L, U = lu_factorisation(A)
+    np.allclose(A, L @ U)
     
