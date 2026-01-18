@@ -1,3 +1,4 @@
+import numpy as np
 def lu_factorisation(A):
     """
     Compute the LU factorisation of a square matrix A.
