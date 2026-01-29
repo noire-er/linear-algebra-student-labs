@@ -46,3 +46,4 @@ df = pd.DataFrame(
     columns=[r"$\epsilon$", "error1 = ||A-QR||2", "error2 = ||QᵀQ - I||2", "error3 = ||R - triu(R)||2"]   
 )
 
+print(df)
